@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final MediaInfo? info = await VideoCompress.compressVideo(
       file.path,
       //frameRate: 24,
-      quality: VideoQuality.DefaultQuality,
+      quality: VideoQuality.Res960x540Quality,
       deleteOrigin: false,
       includeAudio: true,
     );
